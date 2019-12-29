@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .icon {
+      display: inline-block;
+      width: 16px; height: 20px;
+      /* 雪碧图 */
+      background-image: url(sprite_icons.png);
+      background-color: #34538b; /* 该颜色控制图标的颜色 */
+    }
+    .icon1 { background-position: 0 0; }
+    /* 将图片相对容器左移20px，这意味着图片中部的20px内容将出现在容器中 */
+    .icon2 { background-position: -20px 0; }
+    .icon3 { background-position: -40px 0; }
+    .icon4 { background-position: -60px 0; }
+    .link { margin-right: 15px; }
+  </style>
+  <title>CSS skills - hollow out icon</title>
+</head>
+<body>
+  <p>
+    <i class="icon icon1"></i><a href="##" class="link">返回</a>
+    <i class="icon icon2"></i><a href="##" class="link">刷新</a>
+    <i class="icon icon3"></i><a href="##" class="link">收藏</a>
+    <i class="icon icon4"></i><a href="##" class="link">展开图片</a>
+  </p>
+</body>
+</html>
